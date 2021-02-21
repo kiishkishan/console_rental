@@ -5,8 +5,11 @@ import {
     H4,
     H5,
     H6,
-    Body
+    Body,
 } from './typography';
+import {
+    PrimaryButton
+} from './button'
 
 export {
     H1,
@@ -15,5 +18,6 @@ export {
     H4,
     H5,
     H6,
-    Body
+    Body,
+    PrimaryButton
 }

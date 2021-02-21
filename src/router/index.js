@@ -6,14 +6,16 @@ import {
     Link
   } from "react-router-dom";
 import { MainContainer } from '../container';
+import { StyleGuide } from '../container/styleGuide';
 
 export default function Router() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route>
+                <Route exact path="/">
                     <MainContainer/>
                 </Route>
+                <Route exact path="/styleguide" component={StyleGuide.TypographyGuide}/>
             </Switch>
       </BrowserRouter>
     )
